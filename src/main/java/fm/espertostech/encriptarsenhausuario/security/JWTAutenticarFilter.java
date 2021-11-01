@@ -24,7 +24,7 @@ import fm.espertostech.encriptarsenhausuario.model.UsuarioModel;
 
 public class JWTAutenticarFilter extends UsernamePasswordAuthenticationFilter {
 	
-	public static final int TOKEN_EXPIRACAO = 600_00;
+	public static final int TOKEN_EXPIRACAO = 600_000;
 	
 	public static final String TOKEN_SENHA = "c329f190-d362-445a-a52c-0a0fce22ae2f";
 	
